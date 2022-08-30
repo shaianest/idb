@@ -26,7 +26,6 @@
     "with-*",
     "CHANGELOG.md"
   ],
-  "type": "module",
   "scripts": {
     "build": "PRODUCTION=1 rollup -c && node --experimental-modules lib/size-report.mjs",
     "dev": "rollup -c --watch",
